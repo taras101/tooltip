@@ -1,0 +1,9 @@
+<div class="tt-container container text-center flex">
+  <div [hidden]="hider" class="tt tooltip bs-tooltip-top">
+    <div class="arrow"></div>
+    <div class="tooltip-inner">
+      Some tooltip text!
+    </div>
+  </div>
+  <button class ="btn btn-outline-info" id = {{btnId}} (click)="tooltip($event)" (keydown)="onKeydown($event)"aria-label="button"><ng-content></ng-content></button>
+</div>

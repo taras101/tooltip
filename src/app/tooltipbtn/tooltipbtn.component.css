@@ -1,0 +1,16 @@
+.tt {
+  opacity: 1;
+  bottom: 42px;
+  left: 33%;
+}
+
+.tt-container {
+  position: relative;
+  height: 105%;
+}
+
+.arrow {
+  margin: 1%;
+}
+
+/*# sourceMappingURL=tooltipbtn.component.css.map */
